@@ -10,3 +10,7 @@ function setAlarm(employed, vacation){
 function opposite(number) {
   return number * -1
 }
+
+// N-th Power
+function index(array, n){
+  return (typeof(array[n]) != 'number' ? -1 : array[n]**n)}
