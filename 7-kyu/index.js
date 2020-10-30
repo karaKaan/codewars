@@ -45,3 +45,15 @@ function sumOrProduct(array, n) {
     return "product"
   }
 }
+
+//Number of People in the Bus
+var number = function(busStops){
+  let passenger = 0;
+  
+  for(let i = 0; i < busStops.length; i++){
+  
+    passenger += busStops[i][0] - busStops[i][1]
+  
+  }
+    return passenger
+  }

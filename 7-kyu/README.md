@@ -49,3 +49,18 @@ function sumOrProduct(array, n) {
   }
 }
 ````
+
+[Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099)
+
+`````js
+var number = function(busStops){
+let passenger = 0;
+
+for(let i = 0; i < busStops.length; i++){
+
+  passenger += busStops[i][0] - busStops[i][1]
+
+}
+  return passenger
+}
+````
