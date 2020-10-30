@@ -14,3 +14,9 @@ function opposite(number) {
 // N-th Power
 function index(array, n){
   return (typeof(array[n]) != 'number' ? -1 : array[n]**n)}
+
+// Returning Strings
+function greet(name){
+  
+  return `Hello, ${name} how are you doing today?`
+}
