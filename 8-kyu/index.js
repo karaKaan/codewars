@@ -25,3 +25,12 @@ function greet(name){
 function hero(bullets, dragons){
   return (bullets >= dragons*2)
   }
+
+// Grasshopper - If/else syntax debug
+function checkAlive (health) {
+  if (health <= 0) {
+    return false
+  } else  {
+    return true
+  }
+}
