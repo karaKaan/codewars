@@ -52,7 +52,7 @@ function sumOrProduct(array, n) {
 
 [Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099)
 
-`````js
+````js
 var number = function(busStops){
 let passenger = 0;
 
@@ -62,5 +62,19 @@ for(let i = 0; i < busStops.length; i++){
 
 }
   return passenger
+}
+````
+
+[Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
+````js
+function getCount(str){
+  let counter = 0
+  for(let i = 0; i<= str.length; i++){
+    if(str[i] == "a" || str[i] == "e" ||   str[i] == "i" || str[i] == "o" || str[i] == "u"){
+      counter++
+    }
+  }
+  
+  return counter
 }
 ````
