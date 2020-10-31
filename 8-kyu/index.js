@@ -54,3 +54,8 @@ function even_or_odd(number) {
 function isDivideBy(number, a, b) {
   return ((number%a || number %b) ? (false) : (true))
 }
+
+//Multiply
+function multiply(a, b){
+  return a * b
+}
