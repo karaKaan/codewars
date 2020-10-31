@@ -34,3 +34,13 @@ function checkAlive (health) {
     return true
   }
 }
+
+// Get the mean of an array
+function getAverage(marks){
+  let sumUpMarks = 0
+  for(row in marks){
+    sumUpMarks += marks[row]
+  }
+
+  return Math.floor(sumUpMarks / marks.length)
+}

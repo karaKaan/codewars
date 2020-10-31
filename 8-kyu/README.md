@@ -38,12 +38,24 @@ return (bullets >= dragons*2)
 ````
 
 [Grasshopper - If/else syntax debug](https://www.codewars.com/kata/57089707fe2d01529f00024a)
-`````js
+````js
 function checkAlive (health) {
   if (health <= 0) {
     return false
   } else  {
     return true
   }
+}
+````
+
+[Get the mean of an array](https://www.codewars.com/kata/563e320cee5dddcf77000158)
+````js
+function getAverage(marks){
+  let sumUpMarks = 0
+  for(row in marks){
+    sumUpMarks += marks[row]
+  }
+
+  return Math.floor(sumUpMarks / marks.length)
 }
 ````
