@@ -59,3 +59,10 @@ function getAverage(marks){
   return Math.floor(sumUpMarks / marks.length)
 }
 ````
+
+[Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
+````js
+function even_or_odd(number) {
+  return number % 2 ? ('Odd') : ('Even')
+}
+````
