@@ -49,3 +49,8 @@ function getAverage(marks){
 function even_or_odd(number) {
   return number % 2 ? ('Odd') : ('Even')
 }
+
+//Can we divide it?
+function isDivideBy(number, a, b) {
+  return ((number%a || number %b) ? (false) : (true))
+}

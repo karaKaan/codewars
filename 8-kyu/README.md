@@ -66,3 +66,10 @@ function even_or_odd(number) {
   return number % 2 ? ('Odd') : ('Even')
 }
 ````
+
+[Can we divide it?](https://www.codewars.com/kata/5a2b703dc5e2845c0900005a)
+````js
+function isDivideBy(number, a, b) {
+  return ((number%a || number %b) ? (false) : (true))
+}
+````
